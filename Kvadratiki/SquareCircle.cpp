@@ -1,6 +1,5 @@
 #include "SquareCircle.h"
 
-// Конструктор
 SquareCircle::SquareCircle(double radius, double side)
     : circle(radius), square(side) {}
 

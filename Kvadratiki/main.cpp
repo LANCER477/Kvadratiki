@@ -14,7 +14,7 @@ int main()
     cout << "Enter the square length: ";
     cin >> Square;
 
-    SquareCircle squareCircle(Radius, Square); // 
+    SquareCircle squareCircle(Radius, Square); 
 
     if (squareCircle.fitsInSquare()) {
         cout << "|The circle fits =) " << std::endl;
